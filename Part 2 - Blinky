@@ -16,9 +16,9 @@ void toggleLED(void *parameter)    // for FreeRTOS you pass a void pointer as pa
   while(true)
   {
     digitalWrite(led_pin, HIGH);          //turn LED on
-    vTaskDelay(50 / portTICK_PERIOD_MS); //wait for 500 ms (miliseconds)
+    vTaskDelay(500 / portTICK_PERIOD_MS); //wait for 500 ms (miliseconds)
     digitalWrite(led_pin, LOW);           //turn LED off
-    vTaskDelay(50 / portTICK_PERIOD_MS); //wait for 500 ms
+    vTaskDelay(500 / portTICK_PERIOD_MS); //wait for 500 ms
   }
 }
 
