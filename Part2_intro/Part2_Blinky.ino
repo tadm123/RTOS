@@ -1,4 +1,6 @@
-/* Simple Blinky project */
+/* 
+Simple Blinky project. Practicing with creating Tasks on the microcontroller.
+*/
 
 // Use only core 1 for demo purposes
 #if CONFIG_FREERTOS_UNICORE
